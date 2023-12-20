@@ -1,0 +1,126 @@
+.new-releases {
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B0C10;
+}
+
+.new-release-image {
+    flex: 1;
+}
+
+.new-release-image img {
+    width: 780px;
+    max-height: auto;
+    display: block;
+}
+
+.new-release-details {
+    padding: 10px;
+    text-align: left;
+    flex: 1;
+}
+
+.new-release-details h2 {
+    font-size: 70px;
+    margin: 1px 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.new-release-details p {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: "Robot", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-release-details .cta-button {
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: all 0.4s ease-in-out;
+    font-weight: 600;
+}
+.cta-button:hover{
+    color: #0B0C10;
+    border: 2px solid #66FCF1;
+    background: #66FCF1;
+}
+.discount {
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #0B0C10;
+}
+
+.discount-image {
+    flex: 1;
+}
+
+.discount-image img {
+    width: 780px;
+    max-height: auto;
+    display: block;
+    margin-left: 40px;
+}
+
+.discount-details {
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.discount-details h2 {
+    font-size: 70px;
+    margin: 1px 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.discount-details p {
+    font-size: 20px;
+    margin: 1px 0;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-container1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.discount-details .cta-button {
+    border-radius: 50px;
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: all 0.4s ease-in-out;
+    font-weight: 600;
+}
+
+.cta-button:hover{
+    color: #0B0C10;
+    border: 2px solid #66FCF1;
+    background: #66FCF1;
+}

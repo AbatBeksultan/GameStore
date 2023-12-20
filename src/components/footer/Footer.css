@@ -1,0 +1,24 @@
+.footer {
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2833;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 27px;
+    font-size: 27px;
+}
+
+.contacts .footer-soc{
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Robot', sans-senf;
+    font-weight: 600;
+    transition: all 350ms ease-in-out;
+}
+.contacts .footer-soc:hover{
+    color: #66FCF1;
+}

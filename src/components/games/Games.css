@@ -1,0 +1,82 @@
+main {
+    background-color: #0B0C10;
+    padding-block: 200px;
+    width: 100%;
+}
+
+main > div {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product {
+    margin: 10px;
+    padding: 10px;
+    /*border: 1px solid #66FCF1;
+    border-radius: 10px;*/
+    text-align: center;
+    transition: all 400ms ease-in-out;
+}
+.product:hover{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.product a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.product img {
+    width: 330px;
+    height: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product h2{
+    color: #fff;
+    font-family: "Unknown font", monospace;
+}
+
+.product p{
+    color: #fff;
+    font-family: "Unknown font", monospace;
+}
+
+.product button{
+    background-color: transparent;
+    border-radius: 16px;
+    border-width: 0;
+    border: 2px solid #66FCF1;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Unknown font", monospace;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 400ms ease-in-out;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.product button:last-child {
+    margin-left: 50px;
+}
+
+.product button:hover{
+    color: #0B0C10;
+    transform: scale(1.05);
+    background: #66FCF1;
+}
